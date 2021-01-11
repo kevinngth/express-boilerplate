@@ -1,10 +1,10 @@
-const express = require("express");
-const app = express();
-const { PORT } = process.env;
+const express = require('express')
+const app = express()
+const { PORT } = process.env
 
 app.listen(PORT, () => {
-    console.log(`server listening on port \x1b[32m${PORT}\x1b[0m`);
-});
+  console.log(`server listening on port \x1b[32m${PORT}\x1b[0m`)
+})
 
 // require('dotenv').config()
 // const express = require('express')
